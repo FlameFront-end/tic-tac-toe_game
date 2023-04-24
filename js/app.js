@@ -51,6 +51,7 @@ function nawGame() {
         item.innerHTML = ''
         item.classList.remove('x', 'o', 'active')
     })
+    game.addEventListener('click', init)
 }
 
 function findGameWinner() {
